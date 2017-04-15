@@ -79,6 +79,21 @@ Filename:   index.html
             <p class="list-group-item-text lead text-primary" id="BoxOffice">  </p>
         </a>
         
+         <a href="#" class="list-group-item">
+            <h3 class="list-group-item-heading">Genre:</h3>
+            <p class="list-group-item-text lead text-primary" id="Genre">  </p>
+        </a>
+        
+         <a href="#" class="list-group-item">
+            <h3 class="list-group-item-heading">Poster:</h3>
+            <p class="list-group-item-text lead text-primary" id="Poster">  </p>
+        </a>
+        
+         <a href="#" class="list-group-item">
+            <h3 class="list-group-item-heading">Production:</h3>
+            <p class="list-group-item-text lead text-primary" id="Production">  </p>
+        </a>
+        
     </div>
 </div> 
     <script>
@@ -101,6 +116,9 @@ Filename:   index.html
                      $('#Language').html(json.Language);
                      $('#Awards').html(json.Awards);
                      $('#BoxOffice').html(json.BoxOffice);
+                     $('#Genre').html(json.Genre);
+                     $('#Poster').html(json.Poster);
+                     $('#Production').html(json.Production);
                 })
                 .fail(function() {
                       alert("Posting failed.");              
