@@ -4,19 +4,18 @@
 LIS 2360:  Web Application Development
 
 ### Assignment Date:  
-(Month Day, Year)
+April 14, 2017
 
 ### Student Name:  
-(First and Last Name)
+Logan Saliga
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+In this assignment, we used jQuery and Ajax methods (along with JSON) to create an application displaying movie data.
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+https://logansaliga.github.io/lesson8_ajax/Lesson8_AssignmentFiles/
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. I learned about different front-end styles that help create a responsive app, like Jumbotron.
+2. I applied the id and key pairings to retrieve information from the external server.
+3. Services we use daily all utilize JSON-based APIs, like Twitter and Instagram.
